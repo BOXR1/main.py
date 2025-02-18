@@ -118,7 +118,7 @@ async def handle_sticker(update: Update, context: CallbackContext):
             os.remove(file_path)
 
 def main():
-    BOT_TOKEN = "7545852425:AAEYJO6SOy5xlHC6xjdtCRtwKl4a0uCmNME"
+    BOT_TOKEN = "7545852425:7545852425:AAHvGoXO1CWkKG4MTYafbBkr8buc1dh99Ao"
     application = Application.builder().token(BOT_TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
